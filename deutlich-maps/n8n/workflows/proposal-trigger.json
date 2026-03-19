@@ -1,0 +1,91 @@
+{
+  "name": "Proposal Trigger Workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "proposal-accepted",
+        "responseMode": "lastNode"
+      },
+      "name": "Webhook Trigger",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [250, 300],
+      "webhookId": "proposal-trigger"
+    },
+    {
+      "parameters": {
+        "operation": "insert",
+        "table": "clients",
+        "columns": "business_name,contact_name,contact_email,contact_phone,status",
+        "values": {
+          "business_name": "={{ $json.body.businessName }}",
+          "contact_name": "={{ $json.body.contactName }}",
+          "contact_email": "={{ $json.body.contactEmail }}",
+          "contact_phone": "={{ $json.body.contactPhone }}",
+          "status": "active"
+        }
+      },
+      "name": "Create Client",
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [500, 300]
+    },
+    {
+      "parameters": {
+        "operation": "insert",
+        "table": "projects",
+        "columns": "client_id,name,status,start_date",
+        "values": {
+          "client_id": "={{ $json.output.clientId }}",
+          "name": "={{ $json.body.projectName }}",
+          "status": "onboarding",
+          "start_date": "={{ $now }}",
+          "package_id": "={{ $json.body.packageId }}"
+        }
+      },
+      "name": "Create Project",
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [750, 300]
+    },
+    {
+      "parameters": {
+        "to": "={{ $json.body.contactEmail }}",
+        "subject": "Willkommen bei Deutlich Maps!",
+        "html": "<h1>Willkommen!</h1><p>Sehr geehrte/r {{ $json.body.contactName }},</p><p>herzlichen Glückwunsch! Ihr Vertrag wurde bestätigt.</p><p>Ihr persönlicher Kundenbereich wartet auf Sie.</p>"
+      },
+      "name": "Send Welcome Email",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 1,
+      "position": [1000, 300]
+    },
+    {
+      "parameters": {
+        "webhookUrl": "={{ $env.SLACK_WEBHOOK_URL }}",
+        "text": "Neuer Kunde: {{ $json.body.businessName }}"
+      },
+      "name": "Slack Notification",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 1,
+      "position": [750, 500]
+    }
+  ],
+  "connections": {
+    "Webhook Trigger": {
+      "main": [[{ "node": "Create Client", "type": "main", "index": 0 }]]
+    },
+    "Create Client": {
+      "main": [[{ "node": "Create Project", "type": "main", "index": 0 }]]
+    },
+    "Create Project": {
+      "main": [
+        [{ "node": "Send Welcome Email", "type": "main", "index": 0 }],
+        [{ "node": "Slack Notification", "type": "main", "index": 0 }]
+      ]
+    }
+  },
+  "settings": { "executionOrder": "v1" },
+  "tags": ["proposal", "onboarding"],
+  "updatedAt": "2024-07-18T10:00:00.000Z"
+}

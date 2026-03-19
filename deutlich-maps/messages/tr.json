@@ -1,0 +1,267 @@
+{
+  "common": {
+    "brand": "Deutlich Maps",
+    "tagline": "Yerel görünürlük ortağınız",
+    "contact": "İletişim",
+    "services": "Hizmetler",
+    "packages": "Paketler",
+    "about": "Hakkımızda",
+    "home": "Ana Sayfa",
+    "getStarted": "Başlayın",
+    "learnMore": "Detaylı Bilgi",
+    "freeAnalysis": "Ücretsiz Analiz",
+    "submit": "Gönder",
+    "loading": "Yükleniyor...",
+    "error": "Hata",
+    "success": "Başarılı",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "view": "Görüntüle",
+    "download": "İndir",
+    "search": "Ara",
+    "filter": "Filtrele",
+    "noResults": "Sonuç bulunamadı"
+  },
+  "navigation": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "packages": "Paketler",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "freeAnalysis": "Ücretsiz Analiz",
+    "login": "Giriş Yap",
+    "dashboard": "Kontrol Paneli",
+    "portal": "Müşteri Portalı",
+    "logout": "Çıkış Yap"
+  },
+  "hero": {
+    "title": "İşletmenizi Görünür Hale Getirin",
+    "subtitle": "Google Haritalar ve yerel arama sonuçlarında en üst sıralarda yer almanıza yardımcı oluyoruz. Daha fazla görünürlük, daha fazla müşteri, daha fazla başarı.",
+    "cta": "Ücretsiz Google Haritalar Analizi",
+    "secondaryCta": "Detaylı Bilgi"
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "Maksimum yerel görünürlük için ihtiyacınız olan her şey",
+    "googleBusiness": {
+      "title": "Google İşletme Optimizasyonu",
+      "description": "Google İşletme profilinizi yerel arama sonuçlarında maksimum görünürlük için optimize ediyoruz."
+    },
+    "360tours": {
+      "title": "360° Sanal Turlar",
+      "description": "Potansiyel müşterileri doğrudan size yönlendiren interaktif 360° turlar."
+    },
+    "localSeo": {
+      "title": "Yerel SEO",
+      "description": "Bölgenizdeki yerel arama sorguları için stratejik SEO optimizasyonu."
+    },
+    "reviews": {
+      "title": "Yorum Yönetimi",
+      "description": "Müşteri yorumlarını toplama ve yönetme için akıllı sistemler."
+    },
+    "reporting": {
+      "title": "Aylık Raporlar",
+      "description": "Başarınızı görebileceğiniz şeffaf performans raporları."
+    },
+    "support": {
+      "title": "Özel Destek",
+      "description": "Tüm sorularınız için kişisel iletişim."
+    }
+  },
+  "packages": {
+    "title": "Paketlerimiz",
+    "subtitle": "Size uygun paketi seçin",
+    "starter": {
+      "name": "Başlangıç",
+      "price": "299",
+      "period": "ay",
+      "description": "Küçük işletmeler için ideal",
+      "features": [
+        "Google İşletme Optimizasyonu",
+        "10'a kadar fotoğraf",
+        "Aylık Rapor",
+        "E-posta Desteği"
+      ]
+    },
+    "professional": {
+      "name": "Profesyonel",
+      "price": "499",
+      "period": "ay",
+      "description": "Büyüyen işletmeler için",
+      "features": [
+        "Başlangıç paketindeki her şey",
+        "360° Sanal Tur",
+        "25'e kadar fotoğraf",
+        "Yerel SEO Optimizasyonu",
+        "Yorum Yönetimi",
+        "Öncelikli Destek"
+      ],
+      "popular": true
+    },
+    "enterprise": {
+      "name": "Kurumsal",
+      "price": "999",
+      "period": "ay",
+      "description": "Büyük işletmeler için",
+      "features": [
+        "Profesyonel paketindeki her şey",
+        "Sınırsız Fotoğraf",
+        "Haftalık Raporlar",
+        "VIP Destek",
+        "Özel Strateji",
+        "API Entegrasyonu"
+      ]
+    },
+    "custom": {
+      "name": "Özel",
+      "description": "İhtiyaçlarınıza göre özelleştirilmiş çözüm"
+    }
+  },
+  "about": {
+    "title": "Deutlich Maps Hakkında",
+    "subtitle": "Yerel dijital görünürlük ortağınız",
+    "story": {
+      "title": "Hikayemiz",
+      "content": "Deutlich Maps, yerel işletmelerin dijital dünyada görünür olmasına yardımcı olmak için kuruldu. Hamburg merkezli olarak, Kuzey Almanya pazarını kimseden iyi tanımıyoruz."
+    },
+    "mission": {
+      "title": "Misyonumuz",
+      "content": "Her yerel işletme online bulunmayı hak ediyor. Biz bunu mümkün kılıyoruz."
+    },
+    "values": {
+      "title": "Değerlerimiz",
+      "transparency": "Şeffaflık",
+      "transparencyDesc": "Tüm süreçler ve sonuçlar hakkında tam bilgi",
+      "quality": "Kalite",
+      "qualityDesc": "Her projede en yüksek standartlar",
+      "reliability": "Güvenilirlik",
+      "reliabilityDesc": "Sözlerimizin arkasında duruyoruz"
+    }
+  },
+  "contact": {
+    "title": "Bize Ulaşın",
+    "subtitle": "Mesajınızı dört gözle bekliyoruz",
+    "form": {
+      "name": "Adınız",
+      "email": "E-posta Adresi",
+      "phone": "Telefon Numarası",
+      "company": "Firma Adı",
+      "message": "Mesajınız",
+      "submit": "Mesaj Gönder",
+      "success": "Teşekkürler! En kısa sürede size dönüş yapacağız.",
+      "error": "Bir hata oluştu. Lütfen tekrar deneyin."
+    },
+    "info": {
+      "address": "Hamburg, Almanya",
+      "email": "info@deutlichmaps.de",
+      "phone": "+49 40 123 456 78"
+    }
+  },
+  "analysis": {
+    "title": "Ücretsiz Google Haritalar Analizi",
+    "subtitle": "Yerel arama sonuçlarında daha iyi sıralama nasıl yapabileceğinizi öğrenin",
+    "form": {
+      "businessName": "İşletme Adı",
+      "businessNamePlaceholder": "örn. Hamburg Cafe",
+      "contactName": "Adınız",
+      "contactEmail": "E-posta Adresi",
+      "contactPhone": "Telefon Numarası",
+      "website": "Web Sitesi (opsiyonel)",
+      "websitePlaceholder": "https://www.web-siteniz.com",
+      "googleUrl": "Google İşletme Profili URL",
+      "googleUrlPlaceholder": "https://maps.google.com/...",
+      "message": "Nasıl yardımcı olabiliriz?",
+      "messagePlaceholder": "Durumunuzu kısaca açıklayın...",
+      "submit": "Ücretsiz Analiz İste",
+      "success": "Teşekkürler! 24 saat içinde size dönüş yapacağız.",
+      "error": "Lütfen tüm zorunlu alanları doldurun."
+    }
+  },
+  "footer": {
+    "description": "Hamburg ve Kuzey Almanya'da yerel görünürlük ortağınız",
+    "quickLinks": "Hızlı Bağlantılar",
+    "services": "Hizmetler",
+    "legal": "Yasal",
+    "privacy": "Gizlilik Politikası",
+    "imprint": "Künye",
+    "terms": "Kullanım Şartları",
+    "copyright": "© 2024 Deutlich Maps. Tüm hakları saklıdır."
+  },
+  "dashboard": {
+    "title": "Kontrol Paneli",
+    "welcome": "Tekrar hoş geldiniz",
+    "stats": {
+      "leads": "Potansiyel Müşteriler",
+      "projects": "Projeler",
+      "tasks": "Görevler",
+      "revenue": "Gelir"
+    },
+    "recentActivity": "Son Aktiviteler",
+    "upcomingTasks": "Yaklaşan Görevler",
+    "quickActions": "Hızlı İşlemler",
+    "addLead": "Lead Ekle",
+    "viewProjects": "Projeleri Görüntüle",
+    "viewTasks": "Görevleri Görüntüle"
+  },
+  "leads": {
+    "title": "Potansiyel Müşteriler",
+    "subtitle": "Potansiyel müşterilerinizi yönetin",
+    "new": "Yeni Lead",
+    "status": {
+      "new": "Yeni",
+      "contacted": "İletişime Geçildi",
+      "qualified": "Nitelikli",
+      "proposal": "Teklif Gönderildi",
+      "negotiating": "Müzakere",
+      "won": "Kazanıldı",
+      "lost": "Kaybedildi"
+    },
+    "table": {
+      "name": "İsim",
+      "company": "Şirket",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "status": "Durum",
+      "source": "Kaynak",
+      "created": "Oluşturulma",
+      "actions": "İşlemler"
+    },
+    "filters": {
+      "all": "Tümü",
+      "today": "Bugün",
+      "thisWeek": "Bu Hafta",
+      "thisMonth": "Bu Ay"
+    }
+  },
+  "portal": {
+    "title": "Müşteri Portalı",
+    "welcome": "Müşteri Portalına Hoş Geldiniz",
+    "subtitle": "Projelerinizi buradan takip edin",
+    "projects": "Projeleriniz",
+    "documents": "Belgeler",
+    "support": "Destek",
+    "profile": "Profil",
+    "projectStatus": {
+      "onboarding": "Yönlendirme",
+      "inProgress": "Devam Ediyor",
+      "review": "İnceleme",
+      "completed": "Tamamlandı",
+      "published": "Yayınlandı"
+    },
+    "documents": {
+      "title": "Belgeleriniz",
+      "download": "İndir",
+      "noDocuments": "Henüz belge yok"
+    },
+    "support": {
+      "title": "Destek İletişimi",
+      "subject": "Konu",
+      "message": "Mesaj",
+      "submit": "Talep Gönder",
+      "success": "Talebiniz gönderildi. En kısa sürede size dönüş yapacağız.",
+      "history": "Talep Geçmişi"
+    }
+  }
+}

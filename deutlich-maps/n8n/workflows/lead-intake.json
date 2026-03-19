@@ -1,0 +1,107 @@
+{
+  "name": "Lead Intake Workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "new-lead",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "name": "Webhook Trigger",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [250, 300],
+      "webhookId": "lead-intake"
+    },
+    {
+      "parameters": {
+        "operation": "insert",
+        "table": "leads",
+        "columns": "business_name,contact_name,contact_email,contact_phone,business_website,google_business_url,notes,source,status",
+        "values": {
+          "business_name": "={{ $json.body.businessName }}",
+          "contact_name": "={{ $json.body.contactName }}",
+          "contact_email": "={{ $json.body.contactEmail }}",
+          "contact_phone": "={{ $json.body.contactPhone }}",
+          "business_website": "={{ $json.body.website }}",
+          "google_business_url": "={{ $json.body.googleUrl }}",
+          "notes": "={{ $json.body.message }}",
+          "source": "website_form",
+          "status": "new"
+        }
+      },
+      "name": "Insert to Supabase",
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [500, 300],
+      "credentials": {
+        "supabaseApi": "Supabase API"
+      }
+    },
+    {
+      "parameters": {
+        "to": "={{ $json.body.contactEmail }}",
+        "subject": "Willkommen bei Deutlich Maps!",
+        "html": "<h1>Vielen Dank für Ihr Interesse!</h1><p>Sehr geehrte/r {{ $json.body.contactName }},</p><p>Wir haben Ihre Anfrage erhalten und melden uns innerhalb von 24 Stunden bei Ihnen.</p><p>Mit freundlichen Grüßen,<br>Das Deutlich Maps Team</p>"
+      },
+      "name": "Send Welcome Email",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 1,
+      "position": [750, 300],
+      "credentials": {
+        "emailHtml": "Resend API"
+      }
+    },
+    {
+      "parameters": {
+        "webhookUrl": "={{ $env.SLACK_WEBHOOK_URL }}",
+        "text": "Neuer Lead: {{ $json.body.businessName }} - {{ $json.body.contactName }}"
+      },
+      "name": "Slack Notification",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 1,
+      "position": [750, 500],
+      "credentials": {
+        "slackApi": "Slack API"
+      }
+    }
+  ],
+  "connections": {
+    "Webhook Trigger": {
+      "main": [
+        [
+          {
+            "node": "Insert to Supabase",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Insert to Supabase": {
+      "main": [
+        [
+          {
+            "node": "Send Welcome Email",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Slack Notification",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": ["leads", "automation"],
+  "triggerCount": 1,
+  "updatedAt": "2024-07-18T10:00:00.000Z",
+  "versionId": "1"
+}

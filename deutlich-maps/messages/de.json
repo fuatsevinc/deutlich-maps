@@ -1,0 +1,267 @@
+{
+  "common": {
+    "brand": "Deutlich Maps",
+    "tagline": "Ihr lokaler Sichtbarkeitspartner",
+    "contact": "Kontakt",
+    "services": "Leistungen",
+    "packages": "Pakete",
+    "about": "Über uns",
+    "home": "Startseite",
+    "getStarted": "Jetzt starten",
+    "learnMore": "Mehr erfahren",
+    "freeAnalysis": "Kostenlose Analyse",
+    "submit": "Absenden",
+    "loading": "Laden...",
+    "error": "Fehler",
+    "success": "Erfolgreich",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "view": "Ansehen",
+    "download": "Herunterladen",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "noResults": "Keine Ergebnisse gefunden"
+  },
+  "navigation": {
+    "home": "Startseite",
+    "services": "Leistungen",
+    "packages": "Pakete",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "freeAnalysis": "Kostenlose Analyse",
+    "login": "Anmelden",
+    "dashboard": "Dashboard",
+    "portal": "Kundenportal",
+    "logout": "Abmelden"
+  },
+  "hero": {
+    "title": "Machen Sie Ihr Unternehmen sichtbar",
+    "subtitle": "Wir helfen Ihnen, in Google Maps und lokalen Suchergebnissen ganz nach oben zu kommen. Mehr Sichtbarkeit, mehr Kunden, mehr Erfolg.",
+    "cta": "Kostenlose Google Maps Analyse",
+    "secondaryCta": "Mehr erfahren"
+  },
+  "services": {
+    "title": "Unsere Leistungen",
+    "subtitle": "Alles, was Sie für maximale lokale Sichtbarkeit brauchen",
+    "googleBusiness": {
+      "title": "Google Business Optimierung",
+      "description": "Wir optimieren Ihr Google Business Profil für maximale Sichtbarkeit in lokalen Suchergebnissen."
+    },
+    "360tours": {
+      "title": "360° Virtuelle Touren",
+      "description": "Interaktive 360° Rundgänge, die potenzielle Kunden direkt zu Ihnen locken."
+    },
+    "localSeo": {
+      "title": "Lokale SEO",
+      "description": "Strategische SEO-Optimierung für lokale Suchanfragen in Ihrer Region."
+    },
+    "reviews": {
+      "title": "Bewertungsmanagement",
+      "description": "Intelligente Systeme zur Sammlung und Verwaltung von Kundenbewertungen."
+    },
+    "reporting": {
+      "title": "Monatliche Berichte",
+      "description": "Transparente Performance-Berichte, damit Sie den Erfolg sehen können."
+    },
+    "support": {
+      "title": "Dedizierter Support",
+      "description": "Persönlicher Ansprechpartner für alle Ihre Fragen."
+    }
+  },
+  "packages": {
+    "title": "Unsere Pakete",
+    "subtitle": "Wählen Sie das Paket, das zu Ihnen passt",
+    "starter": {
+      "name": "Starter",
+      "price": "299",
+      "period": "Monat",
+      "description": "Perfekt für kleine Unternehmen",
+      "features": [
+        "Google Business Optimierung",
+        "Bis zu 10 Fotos",
+        "Monatlicher Bericht",
+        "E-Mail Support"
+      ]
+    },
+    "professional": {
+      "name": "Professional",
+      "price": "499",
+      "period": "Monat",
+      "description": "Für wachsende Unternehmen",
+      "features": [
+        "Alles aus Starter",
+        "360° Virtuelle Tour",
+        "Bis zu 25 Fotos",
+        "Lokale SEO Optimierung",
+        "Bewertungsmanagement",
+        "Prioritäts-Support"
+      ],
+      "popular": true
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "999",
+      "period": "Monat",
+      "description": "Für große Unternehmen",
+      "features": [
+        "Alles aus Professional",
+        "Unbegrenzte Fotos",
+        "Wöchentliche Berichte",
+        "VIP Support",
+        "Individuelle Strategie",
+        "API Integration"
+      ]
+    },
+    "custom": {
+      "name": "Individuell",
+      "description": "Maßgeschneiderte Lösung für Ihre Bedürfnisse"
+    }
+  },
+  "about": {
+    "title": "Über Deutlich Maps",
+    "subtitle": "Ihr Partner für lokale digitale Sichtbarkeit",
+    "story": {
+      "title": "Unsere Geschichte",
+      "content": "Deutlich Maps wurde gegründet, um lokalen Unternehmen zu helfen, in der digitalen Welt sichtbar zu werden. Mit Sitz in Hamburg verstehen wir den norddeutschen Markt wie kein anderer."
+    },
+    "mission": {
+      "title": "Unsere Mission",
+      "content": "Jedes lokale Unternehmen verdient es, online gefunden zu werden. Wir machen es möglich."
+    },
+    "values": {
+      "title": "Unsere Werte",
+      "transparency": "Transparenz",
+      "transparencyDesc": "Volle Einsicht in alle Prozesse und Ergebnisse",
+      "quality": "Qualität",
+      "qualityDesc": "Höchste Standards bei jedem Projekt",
+      "reliability": "Zuverlässigkeit",
+      "reliabilityDesc": "Wir stehen zu unseren Versprechen"
+    }
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Wir freuen uns auf Ihre Nachricht",
+    "form": {
+      "name": "Ihr Name",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefonnummer",
+      "company": "Firmenname",
+      "message": "Ihre Nachricht",
+      "submit": "Nachricht senden",
+      "success": "Vielen Dank! Wir melden uns schnellstmöglich.",
+      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+    },
+    "info": {
+      "address": "Hamburg, Deutschland",
+      "email": "info@deutlichmaps.de",
+      "phone": "+49 40 123 456 78"
+    }
+  },
+  "analysis": {
+    "title": "Kostenlose Google Maps Analyse",
+    "subtitle": "Erfahren Sie, wie Sie in lokalen Suchergebnissen besser ranken können",
+    "form": {
+      "businessName": "Geschäftsname",
+      "businessNamePlaceholder": "z.B. Café Hamburg",
+      "contactName": "Ihr Name",
+      "contactEmail": "E-Mail-Adresse",
+      "contactPhone": "Telefonnummer",
+      "website": "Webseite (optional)",
+      "websitePlaceholder": "https://www.ihre-website.de",
+      "googleUrl": "Google Business Profil URL",
+      "googleUrlPlaceholder": "https://maps.google.com/...",
+      "message": "Wie können wir Ihnen helfen?",
+      "messagePlaceholder": "Beschreiben Sie kurz Ihre Situation...",
+      "submit": "Kostenlose Analyse anfordern",
+      "success": "Vielen Dank! Wir melden uns innerhalb von 24 Stunden.",
+      "error": "Bitte füllen Sie alle Pflichtfelder aus."
+    }
+  },
+  "footer": {
+    "description": "Ihr lokaler Sichtbarkeitspartner in Hamburg und Norddeutschland",
+    "quickLinks": "Schnellzugriff",
+    "services": "Leistungen",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutz",
+    "imprint": "Impressum",
+    "terms": "AGB",
+    "copyright": "© 2024 Deutlich Maps. Alle Rechte vorbehalten."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Willkommen zurück",
+    "stats": {
+      "leads": "Leads",
+      "projects": "Projekte",
+      "tasks": "Aufgaben",
+      "revenue": "Umsatz"
+    },
+    "recentActivity": "Letzte Aktivitäten",
+    "upcomingTasks": "Anstehende Aufgaben",
+    "quickActions": "Schnellaktionen",
+    "addLead": "Lead hinzufügen",
+    "viewProjects": "Projekte ansehen",
+    "viewTasks": "Aufgaben ansehen"
+  },
+  "leads": {
+    "title": "Leads",
+    "subtitle": "Verwalten Sie Ihre potenziellen Kunden",
+    "new": "Neuer Lead",
+    "status": {
+      "new": "Neu",
+      "contacted": "Kontaktiert",
+      "qualified": "Qualifiziert",
+      "proposal": "Angebot gesendet",
+      "negotiating": "In Verhandlung",
+      "won": "Gewonnen",
+      "lost": "Verloren"
+    },
+    "table": {
+      "name": "Name",
+      "company": "Unternehmen",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "status": "Status",
+      "source": "Quelle",
+      "created": "Erstellt",
+      "actions": "Aktionen"
+    },
+    "filters": {
+      "all": "Alle",
+      "today": "Heute",
+      "thisWeek": "Diese Woche",
+      "thisMonth": "Dieser Monat"
+    }
+  },
+  "portal": {
+    "title": "Kundenportal",
+    "welcome": "Willkommen im Kundenportal",
+    "subtitle": "Hier können Sie Ihre Projekte verfolgen",
+    "projects": "Ihre Projekte",
+    "documents": "Dokumente",
+    "support": "Support",
+    "profile": "Profil",
+    "projectStatus": {
+      "onboarding": "Onboarding",
+      "inProgress": "In Bearbeitung",
+      "review": "Überprüfung",
+      "completed": "Abgeschlossen",
+      "published": "Veröffentlicht"
+    },
+    "documents": {
+      "title": "Ihre Dokumente",
+      "download": "Herunterladen",
+      "noDocuments": "Noch keine Dokumente verfügbar"
+    },
+    "support": {
+      "title": "Support kontaktieren",
+      "subject": "Betreff",
+      "message": "Nachricht",
+      "submit": "Anfrage senden",
+      "success": "Ihre Anfrage wurde gesendet. Wir melden uns schnellstmöglich.",
+      "history": "Anfrageverlauf"
+    }
+  }
+}

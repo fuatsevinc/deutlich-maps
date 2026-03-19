@@ -1,0 +1,267 @@
+{
+  "common": {
+    "brand": "Deutlich Maps",
+    "tagline": "Your local visibility partner",
+    "contact": "Contact",
+    "services": "Services",
+    "packages": "Packages",
+    "about": "About Us",
+    "home": "Home",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "freeAnalysis": "Free Analysis",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "download": "Download",
+    "search": "Search",
+    "filter": "Filter",
+    "noResults": "No results found"
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "packages": "Packages",
+    "about": "About Us",
+    "contact": "Contact",
+    "freeAnalysis": "Free Analysis",
+    "login": "Login",
+    "dashboard": "Dashboard",
+    "portal": "Customer Portal",
+    "logout": "Logout"
+  },
+  "hero": {
+    "title": "Make Your Business Visible",
+    "subtitle": "We help you reach the top of Google Maps and local search results. More visibility, more customers, more success.",
+    "cta": "Get Free Google Maps Analysis",
+    "secondaryCta": "Learn More"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Everything you need for maximum local visibility",
+    "googleBusiness": {
+      "title": "Google Business Optimization",
+      "description": "We optimize your Google Business profile for maximum visibility in local search results."
+    },
+    "360tours": {
+      "title": "360° Virtual Tours",
+      "description": "Interactive 360° tours that draw potential customers directly to you."
+    },
+    "localSeo": {
+      "title": "Local SEO",
+      "description": "Strategic SEO optimization for local search queries in your area."
+    },
+    "reviews": {
+      "title": "Review Management",
+      "description": "Smart systems for collecting and managing customer reviews."
+    },
+    "reporting": {
+      "title": "Monthly Reports",
+      "description": "Transparent performance reports so you can see your success."
+    },
+    "support": {
+      "title": "Dedicated Support",
+      "description": "Personal contact for all your questions."
+    }
+  },
+  "packages": {
+    "title": "Our Packages",
+    "subtitle": "Choose the package that suits you",
+    "starter": {
+      "name": "Starter",
+      "price": "299",
+      "period": "month",
+      "description": "Perfect for small businesses",
+      "features": [
+        "Google Business Optimization",
+        "Up to 10 Photos",
+        "Monthly Report",
+        "Email Support"
+      ]
+    },
+    "professional": {
+      "name": "Professional",
+      "price": "499",
+      "period": "month",
+      "description": "For growing businesses",
+      "features": [
+        "Everything in Starter",
+        "360° Virtual Tour",
+        "Up to 25 Photos",
+        "Local SEO Optimization",
+        "Review Management",
+        "Priority Support"
+      ],
+      "popular": true
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "999",
+      "period": "month",
+      "description": "For large businesses",
+      "features": [
+        "Everything in Professional",
+        "Unlimited Photos",
+        "Weekly Reports",
+        "VIP Support",
+        "Custom Strategy",
+        "API Integration"
+      ]
+    },
+    "custom": {
+      "name": "Custom",
+      "description": "Tailored solution for your needs"
+    }
+  },
+  "about": {
+    "title": "About Deutlich Maps",
+    "subtitle": "Your partner for local digital visibility",
+    "story": {
+      "title": "Our Story",
+      "content": "Deutlich Maps was founded to help local businesses become visible in the digital world. Based in Hamburg, we understand the northern German market like no other."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "Every local business deserves to be found online. We make it possible."
+    },
+    "values": {
+      "title": "Our Values",
+      "transparency": "Transparency",
+      "transparencyDesc": "Full insight into all processes and results",
+      "quality": "Quality",
+      "qualityDesc": "Highest standards in every project",
+      "reliability": "Reliability",
+      "reliabilityDesc": "We stand by our promises"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We look forward to hearing from you",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "company": "Company Name",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "success": "Thank you! We'll get back to you as soon as possible.",
+      "error": "Something went wrong. Please try again."
+    },
+    "info": {
+      "address": "Hamburg, Germany",
+      "email": "info@deutlichmaps.de",
+      "phone": "+49 40 123 456 78"
+    }
+  },
+  "analysis": {
+    "title": "Free Google Maps Analysis",
+    "subtitle": "Find out how you can rank better in local search results",
+    "form": {
+      "businessName": "Business Name",
+      "businessNamePlaceholder": "e.g., Café Hamburg",
+      "contactName": "Your Name",
+      "contactEmail": "Email Address",
+      "contactPhone": "Phone Number",
+      "website": "Website (optional)",
+      "websitePlaceholder": "https://www.your-website.com",
+      "googleUrl": "Google Business Profile URL",
+      "googleUrlPlaceholder": "https://maps.google.com/...",
+      "message": "How can we help you?",
+      "messagePlaceholder": "Briefly describe your situation...",
+      "submit": "Request Free Analysis",
+      "success": "Thank you! We'll get back to you within 24 hours.",
+      "error": "Please fill in all required fields."
+    }
+  },
+  "footer": {
+    "description": "Your local visibility partner in Hamburg and Northern Germany",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "imprint": "Imprint",
+    "terms": "Terms of Service",
+    "copyright": "© 2024 Deutlich Maps. All rights reserved."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back",
+    "stats": {
+      "leads": "Leads",
+      "projects": "Projects",
+      "tasks": "Tasks",
+      "revenue": "Revenue"
+    },
+    "recentActivity": "Recent Activity",
+    "upcomingTasks": "Upcoming Tasks",
+    "quickActions": "Quick Actions",
+    "addLead": "Add Lead",
+    "viewProjects": "View Projects",
+    "viewTasks": "View Tasks"
+  },
+  "leads": {
+    "title": "Leads",
+    "subtitle": "Manage your potential customers",
+    "new": "New Lead",
+    "status": {
+      "new": "New",
+      "contacted": "Contacted",
+      "qualified": "Qualified",
+      "proposal": "Proposal Sent",
+      "negotiating": "Negotiating",
+      "won": "Won",
+      "lost": "Lost"
+    },
+    "table": {
+      "name": "Name",
+      "company": "Company",
+      "email": "Email",
+      "phone": "Phone",
+      "status": "Status",
+      "source": "Source",
+      "created": "Created",
+      "actions": "Actions"
+    },
+    "filters": {
+      "all": "All",
+      "today": "Today",
+      "thisWeek": "This Week",
+      "thisMonth": "This Month"
+    }
+  },
+  "portal": {
+    "title": "Customer Portal",
+    "welcome": "Welcome to Customer Portal",
+    "subtitle": "Track your projects here",
+    "projects": "Your Projects",
+    "documents": "Documents",
+    "support": "Support",
+    "profile": "Profile",
+    "projectStatus": {
+      "onboarding": "Onboarding",
+      "inProgress": "In Progress",
+      "review": "Review",
+      "completed": "Completed",
+      "published": "Published"
+    },
+    "documents": {
+      "title": "Your Documents",
+      "download": "Download",
+      "noDocuments": "No documents available yet"
+    },
+    "support": {
+      "title": "Contact Support",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Submit Request",
+      "success": "Your request has been sent. We'll get back to you as soon as possible.",
+      "history": "Request History"
+    }
+  }
+}
