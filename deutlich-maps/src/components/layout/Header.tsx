@@ -110,13 +110,13 @@ const Header = ({ locale }: { locale: string }) => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="lg:hidden border-t border-gray-100 py-4">
-            <div className="flex flex-col gap-4">
+          <div style={{ borderTop: '1px solid #f3f4f6', paddingTop: '16px', paddingBottom: '16px', backgroundColor: 'white' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', paddingLeft: '16px', paddingRight: '16px' }}>
               {navigation.map((item) => (
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="text-gray-600 hover:text-primary-600 font-medium py-2"
+                  style={{ color: '#4b5563', fontWeight: 500, padding: '8px 0', textDecoration: 'none', display: 'block' }}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}
@@ -124,18 +124,21 @@ const Header = ({ locale }: { locale: string }) => {
               ))}
 
               {/* Mobile Language Selector */}
-              <div className="flex items-center gap-2 py-2 border-t border-gray-100">
-                <Globe className="w-5 h-5 text-gray-400" />
-                <div className="flex gap-2">
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', paddingTop: '8px', borderTop: '1px solid #f3f4f6' }}>
+                <Globe style={{ width: '20px', height: '20px', color: '#9ca3af' }} />
+                <div style={{ display: 'flex', gap: '8px' }}>
                   {languages.map((lang) => (
                     <Link
                       key={lang.code}
                       href={getLocalePath(lang.code)}
-                      className={`px-3 py-1 rounded ${
-                        currentLocale === lang.code
-                          ? 'bg-primary-100 text-primary-600 font-medium'
-                          : 'text-gray-600 hover:bg-gray-100'
-                      }`}
+                      style={{
+                        padding: '4px 12px',
+                        borderRadius: '4px',
+                        backgroundColor: currentLocale === lang.code ? '#dbeafe' : 'transparent',
+                        color: currentLocale === lang.code ? '#0284c7' : '#4b5563',
+                        fontWeight: currentLocale === lang.code ? 500 : 400,
+                        textDecoration: 'none'
+                      }}
                     >
                       {lang.code.toUpperCase()}
                     </Link>
@@ -145,7 +148,17 @@ const Header = ({ locale }: { locale: string }) => {
 
               <Link
                 href={`/${currentLocale}/analysis`}
-                className="btn-primary text-center mt-2"
+                style={{
+                  backgroundColor: '#0284c7',
+                  color: 'white',
+                  padding: '12px 24px',
+                  borderRadius: '8px',
+                  fontWeight: 500,
+                  textAlign: 'center',
+                  textDecoration: 'none',
+                  marginTop: '8px',
+                  display: 'block'
+                }}
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t('freeAnalysis')}
