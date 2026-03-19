@@ -1,0 +1,1602 @@
+deutlich-maps@1.0.0 build
+next build
+  ▲ Next.js 14.2.5
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types     ✓ Linting and checking validity of types 
+   Collecting page data     ✓ Collecting page data 
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+A `locale` is expected to be returned from `getRequestConfig`, but none was returned. This will be an error in the next major version of next-intl.
+See: https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+A `locale` is expected to be returned from `getRequestConfig`, but none was returned. This will be an error in the next major version of next-intl.
+See: https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+A `locale` is expected to be returned from `getRequestConfig`, but none was returned. This will be an error in the next major version of next-intl.
+See: https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+A `locale` is expected to be returned from `getRequestConfig`, but none was returned. This will be an error in the next major version of next-intl.
+See: https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+A `locale` is expected to be returned from `getRequestConfig`, but none was returned. This will be an error in the next major version of next-intl.
+See: https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+A `locale` is expected to be returned from `getRequestConfig`, but none was returned. This will be an error in the next major version of next-intl.
+See: https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+A `locale` is expected to be returned from `getRequestConfig`, but none was returned. This will be an error in the next major version of next-intl.
+See: https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+A `locale` is expected to be returned from `getRequestConfig`, but none was returned. This will be an error in the next major version of next-intl.
+See: https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+A `locale` is expected to be returned from `getRequestConfig`, but none was returned. This will be an error in the next major version of next-intl.
+See: https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /de couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /de couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /de couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /de couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /de couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /de couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /de couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /de couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /de couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /de couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /de/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /de/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /de/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /de/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /de/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /de/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /de/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /de/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /tr couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /tr couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /tr couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /tr couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /tr couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /tr couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /tr couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /tr couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+A `locale` is expected to be returned from `getRequestConfig`, but none was returned. This will be an error in the next major version of next-intl.
+See: https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+A `locale` is expected to be returned from `getRequestConfig`, but none was returned. This will be an error in the next major version of next-intl.
+See: https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /en couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /en couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /en couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /en couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /en couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /en couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /en couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /en couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /tr/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /tr/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /tr/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /tr/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /tr/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /tr/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /tr/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /tr/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /de/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /de/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /de/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /de/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /de/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /de/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /de/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /de/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /en/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /en/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /en/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /en/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /en/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /en/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /en/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /en/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+A `locale` is expected to be returned from `getRequestConfig`, but none was returned. This will be an error in the next major version of next-intl.
+See: https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /en/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /en/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /en/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /en/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /en/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /en/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /en/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /en/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /en/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /en/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /de/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /de/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error occurred prerendering page "/de/services". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+    at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317)
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+A `locale` is expected to be returned from `getRequestConfig`, but none was returned. This will be an error in the next major version of next-intl.
+See: https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /tr couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /tr couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error occurred prerendering page "/tr". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+    at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317)
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+A `locale` is expected to be returned from `getRequestConfig`, but none was returned. This will be an error in the next major version of next-intl.
+See: https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /de/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /de/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /de/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /de/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /de/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /de/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /de/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /de/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error occurred prerendering page "/de". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+    at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317)
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /tr/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /tr/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /tr/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /tr/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /tr/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /tr/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /tr/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /tr/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /en/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /en/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /en/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /en/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+A `locale` is expected to be returned from `getRequestConfig`, but none was returned. This will be an error in the next major version of next-intl.
+See: https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /en couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /en couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error occurred prerendering page "/en". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+    at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317)
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /de/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /de/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error occurred prerendering page "/de/about". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+    at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317)
+The `locale` parameter in `getRequestConfig` is deprecated, please switch to `await requestLocale`. See https://next-intl.dev/blog/next-intl-3-22#await-request-locale
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /tr/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /tr/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /tr/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /tr/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /tr/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /tr/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /tr/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /tr/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /tr/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /tr/about couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error occurred prerendering page "/tr/about". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+    at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317)
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /en/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /en/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error occurred prerendering page "/en/services". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+    at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317)
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /tr/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /tr/services couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error occurred prerendering page "/tr/services". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+    at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317)
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /en/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /en/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /en/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /en/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /en/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /en/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error occurred prerendering page "/en/packages". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+    at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317)
+Error occurred prerendering page "/en/about". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+    at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317)
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /tr/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /tr/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error occurred prerendering page "/tr/packages". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+    at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317)
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    ... 5 lines matching cause stack trace ...
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317) {
+  digest: '3335456065',
+  [cause]: n [Error]: Dynamic server usage: Route /de/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+      at l (/workspace/deutlich-maps/.next/server/chunks/276.js:1:37235)
+      at f (/workspace/deutlich-maps/.next/server/chunks/270.js:1:1488)
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3392
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+      at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+      at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+      at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493 {
+    description: "Route /de/packages couldn't be rendered statically because it used `headers`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+    digest: 'DYNAMIC_SERVER_USAGE'
+  }
+}
+Error occurred prerendering page "/de/packages". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Usage of next-intl APIs in Server Components currently opts into dynamic rendering. This limitation will eventually be lifted, but as a stopgap solution, you can use the `setRequestLocale` API to enable static rendering, see https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#static-rendering
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:3471
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at get locale [as locale] (/workspace/deutlich-maps/.next/server/chunks/261.js:81:4858)
+    at /workspace/deutlich-maps/.next/server/chunks/930.js:1:10473
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:4919
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at /workspace/deutlich-maps/.next/server/chunks/261.js:81:5691
+    at /workspace/deutlich-maps/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:185493
+    at o (/workspace/deutlich-maps/.next/server/chunks/261.js:81:1885)
+    at s (/workspace/deutlich-maps/.next/server/chunks/261.js:81:2317)
+ ✓ Generating static pages (31/31)
+Export encountered errors on following paths:
+	/[locale]/about/page: /de/about
+	/[locale]/about/page: /en/about
+	/[locale]/about/page: /tr/about
+	/[locale]/packages/page: /de/packages
+	/[locale]/packages/page: /en/packages
+	/[locale]/packages/page: /tr/packages
+	/[locale]/page: /de
+	/[locale]/page: /en
+	/[locale]/page: /tr
+	/[locale]/services/page: /de/services
+	/[locale]/services/page: /en/services
+	/[locale]/services/page: /tr/services

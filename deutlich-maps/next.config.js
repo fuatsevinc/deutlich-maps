@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 const createNextIntlPlugin = require('next-intl/plugin');
 
-const withNextIntl = createNextIntlPlugin('./i18n.ts');
+const withNextIntl = createNextIntlPlugin('./src/i18n.ts');
 
 const nextConfig = {
+  distDir: 'dist',
   images: {
     remotePatterns: [
       {

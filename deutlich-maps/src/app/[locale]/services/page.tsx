@@ -2,6 +2,8 @@ import Link from 'next/link';
 import { useTranslations, useLocale } from 'next-intl';
 import { ArrowRight, MapPin, TrendingUp, Star, BarChart3, CheckCircle, Camera, Search, MessageSquare, FileText, Headphones } from 'lucide-react';
 
+export const dynamic = 'force-dynamic';
+
 export default function ServicesPage() {
   const tServices = useTranslations('services');
   const tNav = useTranslations('navigation');

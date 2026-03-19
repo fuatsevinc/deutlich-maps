@@ -2,6 +2,8 @@ import Link from 'next/link';
 import { useTranslations, useLocale } from 'next-intl';
 import { ArrowRight, Target, Eye, Heart, Users, Award, Globe, Shield, Truck } from 'lucide-react';
 
+export const dynamic = 'force-dynamic';
+
 export default function AboutPage() {
   const tAbout = useTranslations('about');
   const tNav = useTranslations('navigation');

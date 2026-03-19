@@ -2,6 +2,8 @@ import Link from 'next/link';
 import { useTranslations, useLocale } from 'next-intl';
 import { ArrowRight, MapPin, TrendingUp, Star, Shield, Clock, CheckCircle, BarChart3, Eye, Users } from 'lucide-react';
 
+export const dynamic = 'force-dynamic';
+
 export default function HomePage() {
   const t = useTranslations('hero');
   const tServices = useTranslations('services');
